@@ -1,8 +1,8 @@
 {
 	"name": "shades-of-purple",
 	"displayName": "Shades of Purple",
-	"description": "⚡ A professional theme with hand-picked & bold shades of purple 💜 to go along with your VS Code. A custom VS Code theme with style.",
-	"version": "2.1.0",
+	"description": "⚡ A professional theme with hand-picked & bold shades of purple 🦄 to go along with your VS Code. Reviewed by several designers and 50+ releases to keep it updated. One of the best VSCode themes on VS Code Marketplace.",
+	"version": "2.6.0",
 	"publisher": "ahmadawais",
 	"engines": {
 		"vscode": "^1.15.0"
@@ -21,10 +21,10 @@
 	],
 	"keywords": [
 		"Shades of Purple",
-		"Shade of Purple",
-		"Cobalt",
+		"Dark Theme",
 		"VSCode Power User",
-		"cobalt 3"
+		"Shade of Purple",
+		"Cobalt"
 	],
 	"contributes": {
 		"themes": [
@@ -45,7 +45,6 @@
 		"log": "auto-changelog && git add . && git ci -m ' 📖 DOC: Update the changelog' && git push",
 		"release": "release-it && npx vsce publish",
 		"release-major": "release-it major && npx vsce publish",
-		"release-patch": "release-it patch && npx vsce publish",
 		"release-dry": "release-it --dry-run"
 	},
 	"auto-changelog": {

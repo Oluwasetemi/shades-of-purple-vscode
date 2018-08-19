@@ -1,9 +1,10 @@
 <div align="center">
-<img align="center" src="https://dha4w82d62smt.cloudfront.net/items/1S3J0I0p2t3I303D0r24/SOPv2-1920x1080-Small-Slow-2mb.gif" />
+<a align="center" href="https://marketplace.visualstudio.com/items?itemName=ahmadawais.shades-of-purple"><img align="center" src="https://dha4w82d62smt.cloudfront.net/items/1S3J0I0p2t3I303D0r24/SOPv2-1920x1080-Small-Slow-2mb.gif" /></a>
 
 # Shades of Purple Theme for VS Code
 
 [![Version](https://vsmarketplacebadge.apphb.com/version/ahmadawais.shades-of-purple.svg?label=Shades%20of%20Purple&colorB=4d21fc)](https://marketplace.visualstudio.com/items?itemName=ahmadawais.shades-of-purple)
+[![Developers Using 🦄 Shades of Purple ](https://vsmarketplacebadge.apphb.com/installs/ahmadawais.shades-of-purple.svg?label=Developers&colorB=B168F5)](https://marketplace.visualstudio.com/items?itemName=ahmadawais.shades-of-purple)
 [![Rating](https://img.shields.io/vscode-marketplace/r/ahmadawais.shades-of-purple.svg?label=Ratings&colorB=A599E9)](https://marketplace.visualstudio.com/items?itemName=ahmadawais.shades-of-purple#review-details)
 
 </div>
@@ -23,11 +24,11 @@
         </td>
         <td align='center'>
             <a  target="_blank" href='https://AhmadAwais.com/'>
-                <img src='https://i.imgur.com/Asg4d3k.png' width='100' />
+                <img src='https://img.shields.io/badge/AHMAD-AWAIS-gray.svg?colorB=5734F5&style=flat' width='100' />
             </a>
         </td>
     </tr>
-    <tr><td><sup> Follow Ahmad's #FOSS work on GitHub <a href='https://github.com/ahmadawais'>@AhmadAwais</a> —   Say Hi on Twitter <a href="https://twitter.com/mrahmadawais/">@MrAhmadAwais</a></sup></td><td  align='center'>👋</td></tr>
+    <tr><td><sup> Follow Ahmad's #FOSS work on GitHub <a href='https://github.com/ahmadawais'>@AhmadAwais</a> —   Say Hi on Twitter <a href="https://twitter.com/mrahmadawais/">@MrAhmadAwais</a></sup></td><td  align='center'> <a  target="_blank" href='https://AhmadAwais.com/'>👋 </a></td></tr>
 </table>
 
 <div align="center">
@@ -61,6 +62,7 @@ Watch the following video on YouTube to find out more about Shades of Purple the
 1. Click **Install** to install it.
 1. Click **Reload** to reload your editor.
 1. Code/File ＞ Preferences ＞ Color Theme ＞ **Shades of Purple**.
+1. 🌟 [Rate five-stars](https://marketplace.visualstudio.com/items?itemName=ahmadawais.shades-of-purple#review-details) like 33+ awesome devs to appreciate the effort behind this theme.
 
 <br>
 
@@ -73,6 +75,7 @@ Watch the following video on YouTube to find out more about Shades of Purple the
 1. Click **Install** to install it.
 1. Click **Reload** to reload the your editor.
 1. Code/File ＞ Preferences ＞ Color Theme ＞ **Shades of Purple**.
+1. 🌟 [Rate five-stars](https://marketplace.visualstudio.com/items?itemName=ahmadawais.shades-of-purple#review-details) like 33+ awesome devs to appreciate the effort behind this theme.
 
 <br>
 
@@ -261,4 +264,4 @@ This FOSS (free and open source software) project is updated and maintained with
 
 Thanks to VSCode team at Microsoft for creating such an awesome code editor. Also to the creator of other high contrast themes that served as an inspiration. This theme takes inspiration from many VSCode themes including but not limited to Cobalt themes by Roberto Achar, Ayu, Palenight themes, Dracula themes, etc. VSCode and Icons8 for the icons in this readme.
 
-_Follow 👋 _ →  [![Ahmad on Twitter](https://img.shields.io/twitter/follow/mrahmadawais.svg?style=social&label=Tweet%20@MrAhmadAwais)](https://twitter.com/mrahmadawais/)
+_👋 Follow Ahmad on Twitter —_ [![Ahmad on Twitter](https://img.shields.io/twitter/follow/mrahmadawais.svg?style=social&label=Follow%20@MrAhmadAwais)](https://twitter.com/mrahmadawais/)
