@@ -253,12 +253,12 @@
 		"statusBar.background": "#1E1E3F",
 		"statusBar.border": "#1E1E3F",
 		"statusBar.debuggingBackground": "#1E1E3F",
-		"statusBar.debuggingForeground": "#A599E9",
+		"statusBar.debuggingForeground": "#1E1E3F",
 		"statusBar.foreground": "#A599E9",
 		"statusBar.noFolderBackground": "#1E1E3F",
 		"statusBar.noFolderForeground": "#A599E9",
 		"statusBarItem.activeBackground": "#4D21FC",
-		"statusBarItem.hoverBackground": "#4D21FC",
+		"statusBarItem.hoverBackground": "#2D2B55",
 		"statusBarItem.prominentBackground": "#1E1E3F",
 		"statusBarItem.prominentHoverBackground": "#2D2B55",
 
@@ -290,7 +290,7 @@
 		"gitDecoration.modifiedResourceForeground": "#FAD000", // Color for modified git resources.
 		"gitDecoration.deletedResourceForeground": "#EC3A37F5", // Color for deleted git resources.
 		"gitDecoration.untrackedResourceForeground": "#3AD900", // Color for untracked git resources.
-		"gitDecoration.ignoredResourceForeground": "#A599E981", // Color for ignored git resources.
+		"gitDecoration.ignoredResourceForeground": "#a599e981", // Color for ignored git resources.
 		"gitDecoration.conflictingResourceForeground": "#FF7200", // Color for conflicting git resources.
 
 		// Text Colors — Colors inside a text document, such as the welcome page.
@@ -1071,6 +1071,33 @@
 			}
 		},
 		{
+			"name": "[INI] - Section Title",
+			"scope": [
+				"entity.name.section.group-title.ini"
+			],
+			"settings": {
+				"foreground": "#FF9D00"
+			}
+		},
+		{
+			"name": "[INI] - Keywords for definition",
+			"scope": [
+				"keyword.other.definition.ini",
+			],
+			"settings": {
+				"foreground": "#FAD000"
+			}
+		},
+		{
+			"name": "[INI] - Punctuation",
+			"scope": [
+				"punctuation.definition.entity.ini",
+			],
+			"settings": {
+				"foreground": "#FFFFFF"
+			}
+		},
+		{
 			"name": "[GO] - Functions",
 			"scope": ["keyword.function.go"],
 			"settings": {
@@ -1096,27 +1123,155 @@
 			}
 		},
 		{
+			"name": "[JSON] - JSON Keys",
+			"scope": [
+				"support.type.property-name.json"
+			],
+			"settings": {
+				"foreground": "#FAD000"
+			}
+		},
+		{
+			"name": "[YML] - Keys",
+			"scope": [
+				"entity.name.tag.yaml"
+			],
+			"settings": {
+				"foreground": "#FAD000"
+			}
+		},
+		{
+			"name": "[YML] - Values",
+			"scope": [
+				"string.unquoted.plain.out.yaml"
+			],
+			"settings": {
+				"foreground": "#FFFFFF"
+			}
+		},
+		{
 			"name": "[ITALLICS] All the awesome itallics live here.",
 			"scope": [
+				"italic",
+				"keyword.control",
+				"quote",
+				"storage",
 				"modifier",
 				"this",
 				"comment",
-				"storage.modifier.js",
-				"entity.other.attribute-name.js",
-				"entity.other.attribute-name.html",
+				// "string",
+				// "entity.name.function",
+				// "support.function",
+				"support.type.property-name",
+				"entity.other.attribute-name",
 				"punctuation.definition.comment",
 				"text.html.basic entity.other",
-				"entity.other.attribute-name.tsx",
-				"entity.other.attribute-name.jsx",
-				"markup.quote.markdown meta.paragraph.markdown",
-				"markup.italic.markdown",
-				"text.jade entity.other.attribute-name.tag",
-				"keyword.control.from.js",
-				"entity.other.attribute-name.tag.pug"
+				"markup.quote",
+				"markup.italic",
+				"meta.tag.sgml.doctype",
+				"punctuation.binary",
+				"markup.changed",
+				"meta.diff.header",
+				"meta.diff.header.from-file",
+				"meta.diff.header.to-file",
+				"markup.deleted.diff",
+				"markup.inserted.diff",
+				"meta.delimiter.period",
+				"punctuation.accessor",
+				"meta.var.expr",
+				"meta.class meta.method.declaration meta.var.expr storage.type",
+				"variable.other.object.property",
+				"entity.name.tag.doctype",
+				"meta.tag.sgml.doctype",
+				"entity.name.section",
+				"meta.selector",
 			],
 			"settings": {
 				"fontStyle": "italic"
 			}
-		}
+		},
 	]
 }
+
+
+// Old Scope.
+// "modifier",
+// "this",
+// "comment",
+// "storage.modifier.js",
+// "entity.name.function.js",
+// "support.type.property-name.json",
+// "entity.other.attribute-name.js",
+// "entity.other.attribute-name.html",
+// "punctuation.definition.comment",
+// "text.html.basic entity.other",
+// "entity.other.attribute-name.tsx",
+// "entity.other.attribute-name.jsx",
+// "markup.quote.markdown meta.paragraph.markdown",
+// "markup.italic.markdown",
+// "text.jade entity.other.attribute-name.tag",
+// "keyword.control.from.js",
+// "entity.other.attribute-name.tag.pug",
+// "italic",
+// "markup.quote.markdown",
+// "markup.italic.markdown",
+// "string.quoted.double.html",
+// "meta.tag.sgml.doctype.html",
+// "support.function.go",
+// "entity.name.function.go",
+// "source.go keyword.package.go",
+// "source.go keyword.import.go",
+// "source.go keyword.function.go",
+// "source.go keyword.type.go",
+// "source.go keyword.struct.go",
+// "source.go keyword.interface.go",
+// "source.go keyword.const.go",
+// "source.go keyword.var.go",
+// "source.go keyword.map.go",
+// "source.go keyword.channel.go",
+// "source.go keyword.control.go",
+// "source.elixir .punctuation.binary.elixir",
+// "quote",
+// "markup.changed",
+// "meta.diff.header.git",
+// "keyword.operator.relational",
+// "meta.diff.header.from-file",
+// "meta.diff.header.to-file",
+// "markup.deleted.diff",
+// "markup.inserted.diff",
+// "meta.delimiter.period",
+// "punctuation.accessor",
+// "entity.other.attribute-name",
+// "storage",
+// "meta.var.expr",
+// "meta.class meta.method.declaration meta.var.expr storage.type.js",
+// "storage.type.property.js",
+// "storage.type.property.ts",
+// "storage.type.property.tsx",
+// "keyword.operator.comparison",
+// "keyword.control.flow.js",
+// "keyword.control.flow.ts",
+// "keyword.control.flow.tsx",
+// "keyword.control.ruby",
+// "keyword.control.module.ruby",
+// "keyword.control.class.ruby",
+// "keyword.control.def.ruby",
+// "keyword.control.loop.js",
+// "keyword.control.loop.ts",
+// "keyword.control.import.js",
+// "keyword.control.import.ts",
+// "keyword.control.import.tsx",
+// "keyword.control.from.js",
+// "keyword.control.from.ts",
+// "keyword.control.from.tsx",
+// "variable.other.object.property",
+// "entity.name.tag.doctype",
+// "meta.tag.sgml.doctype",
+// "entity.name.section.markdown",
+// "meta.selector",
+// "keyword.other.definition.ini",
+// "keyword.control.conditional",
+// "keyword.control",
+// "support.function",
+// "entity.name.function",
+// "string"
