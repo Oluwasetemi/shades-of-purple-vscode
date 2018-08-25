@@ -58,5 +58,8 @@
 			"IMPROVE: ": "",
 			"DOC: ": ""
 		}
+	},
+	"dependencies": {
+		"vsce": "^1.46.0"
 	}
 }
